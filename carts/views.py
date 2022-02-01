@@ -33,11 +33,6 @@ def remove_cart_item(request , product_id):
     return redirect('cart')
 
 
-
-
-
-
-
 def add_cart(request , product_id):    
     product = Product.objects.get(id = product_id)
 
